@@ -1,0 +1,46 @@
+/* Custom CSS */
+body {
+    background-color: #fff;
+    background-image: url("https://i.imgur.com/XwI78cF.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    animation: bg-animation 20s linear infinite;
+}
+
+@keyframes bg-animation {
+    0% { background-position: 0 0; }
+    50% { background-position: 100% 0; }
+    100% { background-position: 0 0; }
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.jumbotron {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#about {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.section-heading {
+    color: #222;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #f44336;
+    border-color: #f44336;
+}
+
+.btn-primary:hover {
+    background-color: #c62828;
+    border-color: #c62828;
+}
+
+.mb-4 {
+     margin-bottom: 20px;
+}
