@@ -26,11 +26,11 @@
                             <button type="submit" class="btn btn-primary">Login</button>
                         </form>
                         <div class="mt-3">
-                            <a href="{% url 'web_trainer_login' %}" class="text-decoration-none">Login as Trainer instead </a>
+                            <a href="{% url 'users_trainer_login' %}" class="text-decoration-none">Login as Trainer instead </a>
                         </div>
                         <hr>
                         <div class="text-center">
-                            <p>Don't have an account? <a href="register" class="text-decoration-none">Register here</a>
+                            <p>Don't have an account? <a href="{% url 'users_register' %}" class="text-decoration-none">Register here</a>
                             </p>
                         </div>
                     </div>
